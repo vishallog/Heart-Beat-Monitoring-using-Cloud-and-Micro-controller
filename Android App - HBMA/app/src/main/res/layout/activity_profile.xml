@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3D0D0"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="695dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#F1F1F1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_et"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_et"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/profilepic"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_et"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Profile Pic URL "
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/phoneNo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_et"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Phone no"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/relativeNo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_et"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Relative's Phone no"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:padding="13dp"
+            android:text="Update"
+            android:textSize="16dp"
+            app:cornerRadius="4dp" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>

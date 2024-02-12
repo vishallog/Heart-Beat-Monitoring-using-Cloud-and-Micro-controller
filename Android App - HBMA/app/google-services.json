@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895444506157",
+    "project_id": "hbma-d9f2d",
+    "storage_bucket": "hbma-d9f2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895444506157:android:d95bbb19be6075da9f4aa4",
+        "android_client_info": {
+          "package_name": "com.example.hbma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895444506157-lgu067v6u62t2rsfo7tn3e30ngl9ar24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqG2FZOLpv5-6PjBKkKMZR7q-ozSR7Txw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895444506157-lgu067v6u62t2rsfo7tn3e30ngl9ar24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
